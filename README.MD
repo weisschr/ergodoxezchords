@@ -26,14 +26,15 @@ COMBO_ENABLE = yes
 7.  Modify this code to suit the combinations you would like to use. The
 code you find here assumes the following:
 
-MODIFIER         LEFT       RIGHT
-shift            DF         JK
-ctrl             CV         M,
-alt              ER         UI
-ctrl-shift       SDF        JKL
-alt-shift        WER        UIO
-ctrl-alt         XCV        M,.
-shift-ctrl-alt   ASDF       JKL;
+|MODIFIER        |LEFT      |RIGHT  |
+|----------------|----------|-------|
+|shift           |DF        |JK     |
+|ctrl            |CV        |M,     |
+|alt             |ER        |UI     |
+|ctrl-shift      |SDF       |JKL    |
+|alt-shift       |WER       |UIO    |
+|ctrl-alt        |XCV       |M,.    |
+|shift-ctrl-alt  |ASDF      |JKL;   |
 
 I based all of this on what I read here.  I made the simplest combinations I
 could come up with.  The first url is for the base setup.  The second has the 
