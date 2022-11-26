@@ -45,13 +45,13 @@ https://docs.qmk.fm/#/feature_combo
 There are several advanced settings.  I found the simplest setting with defaults
 worked just find.  Some things you must consider:
 
-a.  You must get used to the cognitive delay in using a new mapping for modifiers.
-b.  You must ensure you tap your keys used for combos and don't roll your fingers to avoid'
-    misfiers.  If you are used to rolling your fingers, this commbo setup won't work.
-c.  You can add delays, etc., but then you will probably run into the frustrations I did
-    where I was hitting the mods and then the modded key so fast that I was getting a misfire
-    for home row mods.  For example, instead of getting "I" I would get "fi".
-d.  Make this code your own.  It is not hard.  However, I would recommend using Oryx for 
-    remapping your keys and the modifying these results with your combo code.  It will save
-    you from having to learn the entire code base.
-e.  I used the Wally tool to flash the firmware.  It is simple and reliable.
+-  You must get used to the cognitive delay in using a new mapping for modifiers.
+-  You must ensure you tap your keys used for combos and don't roll your fingers to avoid'
+   misfiers.  If you are used to rolling your fingers, this commbo setup won't work.
+-  You can add delays, etc., but then you will probably run into the frustrations I did
+   where I was hitting the mods and then the modded key so fast that I was getting a misfire
+   for home row mods.  For example, instead of getting "I" I would get "fi".
+-  Make this code your own.  It is not hard.  However, I would recommend using Oryx for 
+   remapping your keys and the modifying these results with your combo code.  It will save
+   you from having to learn the entire code base.
+-  I used the Wally tool to flash the firmware.  It is simple and reliable.
