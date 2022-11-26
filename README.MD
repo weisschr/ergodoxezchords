@@ -49,11 +49,12 @@ worked just find.  Some things you must consider:
 -  You must get used to the cognitive delay in using a new mapping for modifiers.  Once you learn it, you should
 go faster.
 -  You must ensure you tap the individual keys used for combos without rolling to avoid
-   misfiers. If you are used to rolling your fingers, this commbo setup won't work.
--  You can add delays, etc., but then you will probably run into the frustrations I did
+   misfiers. If you are used to rolling your fingers, this combo setup won't work.  You may have to pursue tap/hold delays
+   which are discussed in the advanced settings from the second URL.
+-  You can add hold delays to start with, etc., but then you will probably run into the frustrations I did
    where I was hitting the mods and then the modded key so fast that I was getting a misfire
-   for home row mods.  For example, instead of getting "I" I would get "fi".
+   for home row mods.  For example, when I had hold-f mapped to shift, instead of getting "I" I would get "fi" when I didn't hold "f" long enough.
 -  Make this code your own.  It is not hard.  However, I would recommend using Oryx for 
    remapping your keys and then modifying these results with your combo code.  It will save
-   you from having to learn the entire code base.
+   you from having to learn the entire code base.  Oryx is from ZSA is a great tool.
 -  I used the Wally tool to flash the firmware.  It is simple and reliable.
