@@ -29,12 +29,17 @@ code you find here assumes the following:
 |MODIFIER        |LEFT      |RIGHT  |
 |----------------|----------|-------|
 |shift           |DF        |JK     |
-|ctrl            |CV        |M,     |
-|alt             |ER        |UI     |
-|ctrl-shift      |SDF       |JKL    |
-|alt-shift       |WER       |UIO    |
-|ctrl-alt        |XCV       |M,.    |
-|shift-ctrl-alt  |ASDF      |JKL;   |
+|ctrl            |SDF       |JKL    |
+|alt             |ASDF      |JKL;   |
+|ctrl-shift      |CV        |M,     |
+|alt-shift       |XCV       |M,.    |
+|shift-ctrl-alt  |ZXCV      |M,./   |
+|ctrl-alt        |WER       |UIO    |
+
+Note -> I recentely remapped these.  In particular, I got rid of the ER combo
+because I kept rolling these letters and triggering the modifier.  I also
+found any combo with my pinky to be awkward, so I shifted the combos to
+use no more than 3 fingers and nevera pinky.
 
 I based all of this on what I read here.  I made the simplest combinations I
 could come up with.  The first url is for the base setup.  The second has the 

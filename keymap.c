@@ -68,18 +68,24 @@ enum tap_dance_codes {
 
 const uint16_t PROGMEM left_shift_combo[] = {KC_F, KC_D,  COMBO_END};
 const uint16_t PROGMEM right_shift_combo[] = {KC_J, KC_K, COMBO_END};
-const uint16_t PROGMEM left_alt_combo[] = {KC_R, KC_E, COMBO_END};
-const uint16_t PROGMEM right_alt_combo[] = {KC_U, KC_I, COMBO_END};
-const uint16_t PROGMEM left_ctrl_combo[] = {KC_V, KC_C, COMBO_END};
-const uint16_t PROGMEM right_ctrl_combo[] = {KC_M, KC_COMMA, COMBO_END};
-const uint16_t PROGMEM left_shift_ctrl_combo[] = {KC_F, KC_D, KC_S, COMBO_END};
-const uint16_t PROGMEM right_shift_ctrl_combo[] = {KC_J, KC_K, KC_L, COMBO_END};
-const uint16_t PROGMEM left_shift_alt_combo[] = {KC_R, KC_E, KC_W, COMBO_END};
-const uint16_t PROGMEM right_shift_alt_combo[] = {KC_U, KC_I, KC_O, COMBO_END};
-const uint16_t PROGMEM left_ctrl_alt_combo[] = {KC_V, KC_C, KC_X, COMBO_END};
-const uint16_t PROGMEM right_ctrl_alt_combo[] = {KC_M, KC_COMMA, KC_DOT, COMBO_END};
-const uint16_t PROGMEM left_shift_ctrl_alt_combo[] = {KC_F, KC_D, KC_S, KC_A, COMBO_END};
-const uint16_t PROGMEM right_shift_ctrl_alt_combo[] = {KC_J, KC_K, KC_L, KC_SCOLON, COMBO_END};
+
+const uint16_t PROGMEM left_ctrl_combo[] = {KC_F, KC_D, KC_S, COMBO_END};
+const uint16_t PROGMEM right_ctrl_combo[] = {KC_J, KC_K, KC_L, COMBO_END};
+
+const uint16_t PROGMEM left_alt_combo[] = {KC_F, KC_S, COMBO_END}; 
+const uint16_t PROGMEM right_alt_combo[] = {KC_J, KC_L, COMBO_END};
+
+const uint16_t PROGMEM left_shift_ctrl_combo[] =  {KC_V, KC_C, COMBO_END};
+const uint16_t PROGMEM right_shift_ctrl_combo[] = {KC_M, KC_COMMA, COMBO_END};
+
+const uint16_t PROGMEM left_shift_alt_combo[] = {KC_V, KC_C, KC_X, COMBO_END};
+const uint16_t PROGMEM right_shift_alt_combo[] = {KC_M, KC_COMMA, KC_DOT, COMBO_END};
+
+const uint16_t PROGMEM left_shift_ctrl_alt_combo[] = {KC_V, KC_X, COMBO_END};
+const uint16_t PROGMEM right_shift_ctrl_alt_combo[] = {KC_M, KC_DOT, COMBO_END};
+
+const uint16_t PROGMEM left_ctrl_alt_combo[] = {KC_R, KC_E, KC_W, COMBO_END};
+const uint16_t PROGMEM right_ctrl_alt_combo[] = {KC_U, KC_I, KC_O, COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
     COMBO(left_shift_combo, KC_LSHIFT),
